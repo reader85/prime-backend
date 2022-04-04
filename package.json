@@ -1,0 +1,26 @@
+{
+	"name": "assignment",
+	"version": "1.0.0",
+	"description": "a test assignment",
+	"main": "index.js",
+	"type": "module",
+	"scripts": {
+		"start": "node index.js"
+	},
+	"author": "Tayyab",
+	"license": "ISC",
+	"dependencies": {
+		"babel-preset-env": "^1.7.0",
+		"body-parser": "^1.19.0",
+		"cors": "^2.8.5",
+		"cryptr": "^6.0.2",
+		"dotenv": "^8.2.0",
+		"express": "^4.17.1"
+	},
+	"devDependencies": {
+		"@babel/core": "^7.10.4",
+		"@babel/node": "^7.10.4",
+		"babel-cli": "^6.26.0",
+		"nodemon": "^2.0.15"
+	}
+}
